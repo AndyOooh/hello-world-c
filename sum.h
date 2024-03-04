@@ -1,3 +1,5 @@
-#pragma once
+#pragma once // only copy this file over once, even if it's included in multiple files
 
-int sum(int a, int b);
+namespace osp {
+    int sum(int a, int b);
+}
