@@ -1,8 +1,16 @@
 #include <iostream>
+#include <vector>
+#include <string>
+
 using namespace std;
 
-// main() is where program execution begins.
-int main() {
-   cout << "Hello World"; // prints Hello World
-   return 0;
+int main()
+{
+    vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+
+    for (const string& word : msg)
+    {
+        cout << word << " ";
+    }
+    cout << endl;
 }
